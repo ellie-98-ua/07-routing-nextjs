@@ -11,7 +11,7 @@ import Modal from "@/components/Modal/Modal";
 import NoteForm from "@/components/NoteForm/NoteForm";
 import Pagination from "@/components/Pagination/Pagination";
 
-import css from "@/Notes.client.module.css";
+import css from "@/components/Notes.client/Notes.client.module.css";
 
 export default function NotesClient() {
   const [search, setSearch] = useState("");

@@ -1,0 +1,19 @@
+.menuList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem {
+  margin-bottom: 8px;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.menuLink:hover {
+  color: #0070f3;
+}
