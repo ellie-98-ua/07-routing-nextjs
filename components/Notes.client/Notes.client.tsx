@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useDebounce } from "use-debounce";
-import { useQuery, keepPreviousData } from "@tanstack/react-query"; // ✅ додали keepPreviousData
+import { useQuery, keepPreviousData } from "@tanstack/react-query";
 import { fetchNotes } from "@/lib/api";
 
 import SearchBox from "@/components/SearchBox/SearchBox";
@@ -11,7 +11,7 @@ import Modal from "@/components/Modal/Modal";
 import NoteForm from "@/components/NoteForm/NoteForm";
 import Pagination from "@/components/Pagination/Pagination";
 
-import css from "./Notes.client.module.css";
+import css from "@/Notes.client.module.css";
 
 export default function NotesClient() {
   const [search, setSearch] = useState("");

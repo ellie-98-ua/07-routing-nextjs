@@ -1,11 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import css from "./TagsMenu.module.css";
+import css from "@/TagsMenu.module.css";
 import { useState } from "react";
 
 export default function TagsMenu() {
-  const tags = ["All notes", "Work", "Study", "Personal", "Ideas"];
+  const tags = ["All notes", "Todo", "Work", "Personal", "Meeting", "Shopping"];
 
   const [isOpen, setIsOpen] = useState(false);
 
